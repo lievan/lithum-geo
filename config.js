@@ -53,7 +53,7 @@ var config = {
             title: '<span class="underline--magical">If Not, Winter</span> by Sappho',
             date: '<span class="date">570 B.C.</span>',
             image: 'images/sappho.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [26.2777, 39.2645],
                 zoom: zoom,
@@ -73,7 +73,7 @@ var config = {
             title: '<span class="underline--magical">Citizen: An American Lyric</span> by Rankine',
             date: '<span class="date">2014</span>',
             image: 'images/rankine.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-117.7119, 34.0978],
                 zoom: zoom,
@@ -93,7 +93,7 @@ var config = {
             title: '<span class="underline--magical">Odyssey</span> by Homer',
             date: '<span class="date">725 B.C.</span>',
             image: 'images/odyssey.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [26.1310, 38.3682],
                 zoom: zoom,
@@ -112,7 +112,7 @@ var config = {
             hidden: false,
             title: '<span class="underline--magical">Book of Genesis</span>, <span class="underline--magical">Book of Job</span>, <span class="underline--magical">Song of Solomon</span>',
             image: 'images/genesis.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [34.8516, 31.0461],
                 zoom: zoom,
@@ -132,7 +132,7 @@ var config = {
             title: '<span class="underline--magical">Oresteia</span> by Aeschylus', 
             date: '<span class="date">458 B.C.</span>',
             image: 'images/oresteia.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [23.7275, 37.9838],
                 zoom: zoom,
@@ -152,7 +152,7 @@ var config = {
             title: '<span class="underline--magical">Antigone</span> by Sophocles', 
             date: '<span class="date">442 B.C.</span>',
             image: 'images/antigone.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [23.7275, 37.9838],
                 zoom: zoom,
@@ -172,7 +172,7 @@ var config = {
             title: '<span class="underline--magical">Father Comes Home From the Wars</span> by Parks', 
             date: '<span class="date">2015</span>',
             image: 'images/parks.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-87.6298, 41.8781],
                 zoom: zoom,
@@ -192,7 +192,7 @@ var config = {
             title: '<span class="underline--magical">Symposium</span> by Plato', 
             date: '<span class="date">370 B.C.</span>',
             image: 'images/symposium.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [10.7855, 45.0996],
                 zoom: zoom,
@@ -212,7 +212,7 @@ var config = {
             title: '<span class="underline--magical">Aeneid</span> by Virgil',
             date: '<span class="date">19 B.C.</span>',
             image: 'images/aeneid.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [13.9289,42.0482],
                 zoom: zoom,
@@ -232,7 +232,7 @@ var config = {
             title: '<span class="underline--magical">Metaphorphoses</span> by Ovid', 
             date: '<span class="date">8 C.E.</span>',
             image: 'images/meta.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [31.0461, 31.0461],
                 zoom: zoom,
@@ -252,7 +252,7 @@ var config = {
             title: '<span class="underline--magical">Confessions</span> by Augustine',
             date: '<span class="date">400 C.E.</span>',
             image: 'images/augustine.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [ 12.4964, 41.9028],
                 zoom: zoom,
@@ -292,7 +292,7 @@ var config = {
             title: '<span class="underline--magical">Essays</span> by Montaigne',
             date: '<span class="date">1580</span>',
             image: 'images/montaigne.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-0.5792, 44.8378],
                 zoom: zoom,
@@ -312,7 +312,7 @@ var config = {
             title: '<span class="underline--magical">Othello</span> by Shakespeare',
             date:'<span class="date">1603</span>',
             image: 'images/othello.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-1.7083,52.1917],
                 zoom: zoom,
@@ -332,7 +332,7 @@ var config = {
             title: '<span class="underline--magical">The Decameron</span> by Boccaccio',
             date: '<span class="date">1353</span>',
             image: 'images/deca.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [11.0415,43.5477],
                 zoom: zoom,
@@ -352,7 +352,7 @@ var config = {
             title: '<span class="underline--magical">Don Quixote</span> by Cervantes', 
             date: '<span class="date">1615</span>',
             image: 'images/donquixote.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-3.0977,39.2796],
                 zoom: zoom,
@@ -372,7 +372,7 @@ var config = {
             title: '<span class="underline--magical">Pride and Prejudice</span> by Austen', 
             date: '<span class="date">1813</span>',
             image: 'images/prideandprejudice.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [0.5217, 51.2787],
                 zoom: zoom,
@@ -392,7 +392,7 @@ var config = {
             title: '<span class="underline--magical">Crime and Punishment</span> by Dostoevsky',
             date: '<span class="date">1866</span>',
             image: 'images/crime_and_punishment.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [30.3609,59.9311],
                 zoom: zoom,
@@ -412,7 +412,7 @@ var config = {
             title: '<span class="underline--magical">To the Lighthouse</span> by Woolf',
             date: '<span class="date">1927</span>',
             image: 'images/lighthouse.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-1.3101,51.0598],
                 zoom: zoom,
@@ -432,7 +432,7 @@ var config = {
             title: '<span class="underline--magical">Song of Solomon</span> by Toni Morrison',
             date: '<span class="date">1977</span>',
             image: 'images/morrison.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-73.8648,40.8448],
                 zoom: zoom,
@@ -451,7 +451,7 @@ var config = {
             hidden: false,
             title: '<span class="underline--magical">Columbia</span>',
             image: 'images/columbia.jpeg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-73.9626, 40.8075],
                 zoom: zoom,
