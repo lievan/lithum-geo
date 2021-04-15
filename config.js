@@ -11,7 +11,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false,
     title: '<span class="reg--under">Geography of Literature Humanities</span>',
-    subtitle: 'Lit Hum Final Project Spring 2021',
+    subtitle: 'Final Project Spring 2021',
     byline: 'Evan Li',
     footer: 'Source: source citations, etc.',
     chapters: [
@@ -47,46 +47,6 @@ var config = {
             ]
         },
         {
-            id: "sappho",
-            alignment: 'right',
-            hidden: false,
-            title: '<span class="underline--magical">If Not, Winter</span> by Sappho',
-            date: '<span class="date">570 B.C.</span>',
-            image: 'images/sappho.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            location: {
-                center: [26.2777, 39.2645],
-                zoom: zoom,
-                pitch: pitch,
-                bearing: bearing
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'citizen',
-            alignment: 'left',
-            hidden: false,
-            title: '<span class="underline--magical">Citizen: An American Lyric</span> by Rankine',
-            date: '<span class="date">2014</span>',
-            image: 'images/rankine.jpeg',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            location: {
-                center: [-117.7119, 34.0978],
-                zoom: zoom,
-                pitch: pitch,
-                bearing: bearing
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'odyssey',
             alignment: 'right',
             hidden: false,
@@ -111,6 +71,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '<span class="underline--magical">Book of Genesis</span>, <span class="underline--magical">Book of Job</span>, <span class="underline--magical">Song of Solomon</span>',
+            date: '<span class="date">? B.C.</span>',
             image: 'images/genesis.jpeg',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
@@ -126,8 +87,28 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'oresteia',
+            id: "sappho",
             alignment: 'right',
+            hidden: false,
+            title: '<span class="underline--magical">If Not, Winter</span> by Sappho',
+            date: '<span class="date">570 B.C.</span>',
+            image: 'images/sappho.png',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            location: {
+                center: [26.2777, 39.2645],
+                zoom: zoom,
+                pitch: pitch,
+                bearing: bearing
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'oresteia',
+            alignment: 'left',
             hidden: false,
             title: '<span class="underline--magical">Oresteia</span> by Aeschylus', 
             date: '<span class="date">458 B.C.</span>',
@@ -147,7 +128,7 @@ var config = {
         },
         {
             id: 'antigone',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '<span class="underline--magical">Antigone</span> by Sophocles', 
             date: '<span class="date">442 B.C.</span>',
@@ -155,26 +136,6 @@ var config = {
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [23.7275, 37.9838],
-                zoom: zoom,
-                pitch: pitch,
-                bearing: bearing
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'parks',
-            alignment: 'right',
-            hidden: false,
-            title: '<span class="underline--magical">Father Comes Home From the Wars</span> by Parks', 
-            date: '<span class="date">2015</span>',
-            image: 'images/parks.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            location: {
-                center: [-87.6298, 41.8781],
                 zoom: zoom,
                 pitch: pitch,
                 bearing: bearing
@@ -286,8 +247,28 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'montaigne',
+            id: 'boccaccio',
             alignment: 'right',
+            hidden: false,
+            title: '<span class="underline--magical">The Decameron</span> by Boccaccio',
+            date: '<span class="date">1353</span>',
+            image: 'images/deca.jpeg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            location: {
+                center: [11.0415,43.5477],
+                zoom: zoom,
+                pitch: pitch,
+                bearing: bearing
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'montaigne',
+            alignment: 'left',
             hidden: false,
             title: '<span class="underline--magical">Essays</span> by Montaigne',
             date: '<span class="date">1580</span>',
@@ -307,7 +288,7 @@ var config = {
         },
         {
             id: 'otherllo',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '<span class="underline--magical">Othello</span> by Shakespeare',
             date:'<span class="date">1603</span>',
@@ -315,26 +296,6 @@ var config = {
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-1.7083,52.1917],
-                zoom: zoom,
-                pitch: pitch,
-                bearing: bearing
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'boccaccio',
-            alignment: 'right',
-            hidden: false,
-            title: '<span class="underline--magical">The Decameron</span> by Boccaccio',
-            date: '<span class="date">1353</span>',
-            image: 'images/deca.jpeg',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            location: {
-                center: [11.0415,43.5477],
                 zoom: zoom,
                 pitch: pitch,
                 bearing: bearing
@@ -446,10 +407,50 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'citizen',
+            alignment: 'right',
+            hidden: false,
+            title: '<span class="underline--magical">Citizen: An American Lyric</span> by Rankine',
+            date: '<span class="date">2014</span>',
+            image: 'images/rankine.jpeg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            location: {
+                center: [-117.7119, 34.0978],
+                zoom: zoom,
+                pitch: pitch,
+                bearing: bearing
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'parks',
+            alignment: 'left',
+            hidden: false,
+            title: '<span class="underline--magical">Father Comes Home From the Wars</span> by Parks', 
+            date: '<span class="date">2015</span>',
+            image: 'images/parks.png',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            location: {
+                center: [-87.6298, 41.8781],
+                zoom: zoom,
+                pitch: pitch,
+                bearing: bearing
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'columbia',
             alignment: 'right',
             hidden: false,
-            title: '<span class="underline--magical">Columbia</span>',
+            title: '<span class="underline--magical">Columbia University</span>',
             image: 'images/columbia.jpeg',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
