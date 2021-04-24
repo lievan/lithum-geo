@@ -14,8 +14,32 @@
             padding:0;
             font-family: Georgia,serif;
         }
+        .head{
+            width: 100%;
+            height: 100vh;
+            margin-bottom: 40px;
+            background-image: url('images/columbia.jpeg');
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            opacity: 1.0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            -webkit-transition: background-image 1.5s linear;
+            -moz-transition: background-image 1.5s linear;
+            -o-transition: background-image 1.5s linear;
+            -ms-transition: background-image 1.5s linear;
+            transition: background-image 1.5s linear;
+        }
         h1 {
+            width: 725px;
+            border: 25px solid #FFFBED;
+            border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+            background-color:#FFFBED;
             position: static;
+            line-height:2;
             margin: 0 auto 5px;
             padding-top: 0;
             padding-left: 0;
@@ -36,9 +60,11 @@
         h4 {
             font-size: medium;
         }
-        a, a:hover, a:visited {
-            color: #0071bc;
+
+        body, html {
+            height: 100%;
         }
+
         #map {
             top:0;
             height: 100vh;
@@ -73,10 +99,7 @@
             padding-bottom: 10vh;
         }
         .reg--under {
-            -webkit-text-decoration: darkturquoise solid underline;
-            text-decoration: darkturquoise solid underline;
-            -webkit-text-decoration-skip: ink;
-            text-decoration-skip: ink;
+            color: black;
         }
         .date {
             background-image: linear-gradient(120deg, #CAC531 0%, #f3f9a7 100%);
@@ -88,6 +111,9 @@
         }
         .date:hover{
             background-size: 100% 88%;
+        }
+        .byline{
+            font-size: 15px;
         }
         .underline--magical {
             background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -166,12 +192,15 @@
 
         </style>
 </head>
+
+
 <body>
 
 <div id="map"></div>
 <div id="story"></div>
 
 <script src="./config.js"></script>
+
 <script>
 var layerTypes = {
     'fill': ['fill-opacity'],
@@ -214,6 +243,36 @@ features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
 
+header.className = "head";
+header.setAttribute('id', 'head');
+console.log(header.id)
+
+const cats = [
+    "images/deca.jpeg",
+    "images/aeneid.jpeg",
+    "images/genesis.jpeg",
+    "images/lighthouse.jpeg",
+    "images/luke.jpeg",
+    "images/meta.jpeg",
+    "images/morrison.png",
+    "images/odyssey.jpg",
+    "images/othello.jpeg",
+    "images/prideandprejudice.jpeg",
+    "images/symposium.jpeg"
+]
+
+const cycleImages = (images, container, step) => {
+    images.forEach((image, index) => (
+    setTimeout(() => {
+        container.style.backgroundImage = `url(${image})`  
+    }, step * (index + 1))
+    ))
+    setTimeout(() => cycleImages(images, container, step), step * images.length)
+}
+
+cycleImages(cats, header, 3000)
+
+
 if (config.title) {
     var titleText = document.createElement('h1');
     var span = document.createElement('span');
@@ -221,16 +280,15 @@ if (config.title) {
     header.appendChild(titleText);
 }
 
-
 if (config.subtitle) {
     var subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
+    subtitleText.innerHTML = config.subtitle;
     header.appendChild(subtitleText);
 }
 
 if (config.byline) {
     var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
+    bylineText.innerHTML = config.byline;
     header.appendChild(bylineText);
 }
 
@@ -262,7 +320,6 @@ config.chapters.forEach((record, idx) => {
         image.src = record.image;
         chapter.appendChild(image);
     }
-
 
     if (record.description) {
         var story = document.createElement('p');

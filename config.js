@@ -10,10 +10,10 @@ var config = {
     markerColor: '#000000',
     theme: 'light',
     use3dTerrain: false,
-    title: '<span class="reg--under">Geography of Literature Humanities</span>',
-    subtitle: 'Final Project Spring 2021',
-    byline: 'Evan Li',
-    footer: 'Source: source citations, etc.',
+    title: '<span class="reg--under">Geography of Literature Humanities</span> <span class="byline"> Spring 2021 Final project by Evan Li </span>' ,
+    subtitle: '',
+    byline: '',
+    footer: '',
     chapters: [
         {
             id: 'iliad',
@@ -71,7 +71,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '<span class="underline--magical">Book of Genesis</span>, <span class="underline--magical">Book of Job</span>, <span class="underline--magical">Song of Solomon</span>',
-            date: '<span class="date">? B.C.</span>',
+            date: '<span class="date">1000 B.C. - 400 B.C</span>',
             image: 'images/genesis.jpeg',
             description: '"Then the Lord God said, “See, the man has become like one of us, knowing good and evil; and now, he might reach out his hand and take also from the tree of life, and eat, and live forever” therefore the Lord God sent him forth from the garden of Eden, to till the ground from which he was taken. He drove out the man; and at the east of the garden of Eden he placed the cherubim, and a sword flaming and turning to guard the way to the tree of life."',
             location: {
@@ -175,7 +175,7 @@ var config = {
             image: 'images/aeneid.jpeg',
             description: '\"And now the heavy hand of Mars gave grief and death to both alike; the armies were, both conquerors and conquered, each in turn killing and being killed. And neither side knew what was flight. The gods inside Jove’s palace take pity on both armies’ pointless anger; they sorrow at the trials of mortal men.\"',
             location: {
-                center: [13.9289,42.0482],
+                center: [12.4964, 41.9028],
                 zoom: zoom,
                 pitch: pitch,
                 bearing: bearing
@@ -196,6 +196,46 @@ var config = {
             description: '\"Now I have finished my work, which nothing can ever destroy – <br> not Jupiter’s wrath, nor fire or sword, nor devouring time. <br> That day which has power over nothing except this body of mine <br> may come when it will and end the uncertain span of my life. <br> But the finer part of myself shall sweep me into eternity,<br> higher than all the stars. My name shall be never forgotten.\"',
             location: {
                 center: [31.0461, 31.0461],
+                zoom: zoom,
+                pitch: pitch,
+                bearing: bearing
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'luke',
+            alignment: 'right',
+            hidden: false,
+            title: '<span class="underline--magical">Gospel of Luke </span>', 
+            date: '<span class="date">85 C.E',
+            image: 'images/luke.jpeg',
+            description: '“And I tell you, everyone who acknowledges me before others, the Son of Man also will acknowledge before the angels of God; but whoever denies me before others will be denied before the angels of God. And everyone who speaks a word against the Son of Man will be forgiven; but whoever blasphemes against the Holy Spirit will not be forgiven. When they bring you before the synagogues, the rulers, and the authorities, do not worry about how c you are to defend yourselves or what you are to say; for the Holy Spirit will teach you at that very hour what you ought to say."',
+            location: {
+                center: [21.9522, 38.1159],
+                zoom: zoom,
+                pitch: pitch,
+                bearing: bearing
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'john',
+            alignment: 'left',
+            hidden: false,
+            title: '<span class="underline--magical">Gospel of John</span>', 
+            date: '<span class="date">100 C.E.</span>',
+            image: 'images/john.jpeg',
+            description: '"In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things came into being through him, and without him not one thing came into being. What has come into being in him was life, a and the life was the light of all people. The light shines in the darkness, and the darkness did not overcome it."',
+            location: {
+                center: [27.3678, 37.9490],
                 zoom: zoom,
                 pitch: pitch,
                 bearing: bearing
@@ -436,25 +476,6 @@ var config = {
             description: '"He didn’t give me my freedom. Not even with his dying breath. In spite of all his promises. And what beautiful promises they were. With every day they grew fuller and riper. I’d imagine sitting at a head of a fine table and eating my fill That’s how real they were. I could taste them. And when I’d wake up my mouth was only full of my own teeth And tongue and spit. And my stomach growled. And he’d feed it. With promises. And I would feast on them.\"',
             location: {
                 center: [-87.6298, 41.8781],
-                zoom: zoom,
-                pitch: pitch,
-                bearing: bearing
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'columbia',
-            alignment: 'right',
-            hidden: false,
-            title: '<span class="underline--magical">Columbia University</span>',
-            image: 'images/columbia.jpeg',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            location: {
-                center: [-73.9626, 40.8075],
                 zoom: zoom,
                 pitch: pitch,
                 bearing: bearing
