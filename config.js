@@ -10,7 +10,7 @@ var config = {
     markerColor: '#000000',
     theme: 'light',
     use3dTerrain: false,
-    title: '<span class="reg--under">Geography of Literature Humanities</span> <span class="byline"> Spring 2021 Final project by Evan Li </span>' ,
+    title: '<span class="reg--under">Geography of Literature Humanities</span> <span class="byline"> Spring 2021 Final Project by Evan Li </span>' ,
     subtitle: '',
     byline: '',
     footer: '',
