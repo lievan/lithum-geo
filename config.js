@@ -22,7 +22,7 @@ var config = {
             title: '<span class="underline--magical">Iliad</span> by Homer',
             date: '<span class="date">762 B.C.</span>',
             image: 'images/homer.png',
-            description: "\"Sing, goddess, the anger of Peleus' son Achilleus and its devastation, which puts pains thousandfold upon the Achaians, hurled in their multitudes to the house of Hades strong souls of heroes, but gave their bodies to be delicate feasting of dogs, of all birds, and the will of Zeus was accomplished since that time when first there stood in division of conflict Atreus' son the lord of men and brillian Achilleus.\"",
+            description: "\"Sing, goddess, the anger of Peleus' son Achilleus and its devastation, which puts pains thousandfold upon the Achaians, hurled in their multitudes to the house of Hades strong souls of heroes, but gave their bodies to be delicate feasting of dogs, of all birds, and the will of Zeus was accomplished since that time when first there stood in division of conflict Atreus' son the lord of men and brilliant Achilleus.\"",
             location: {
                 center: [26.1310, 38.3682],
                 zoom: zoom,
