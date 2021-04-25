@@ -273,7 +273,7 @@ var config = {
             title: '<span class="underline--magical">Inferno</span> by Dante',
             date: '<span class="date">1320</span>',
             image: 'images/dante.jpeg',
-            description: '"THROUGH me you pass into the city of woe: Through me you pass into eternal pain: Through me among the people lost for aye. Justice the founder of my fabric movd: To rear me was the task of power divine, Supremest wisdom, and primeval love. Before me things create were none, save things Eternal, and eternal I endure. "All hope abandon ye who enter here."',
+            description: '“THROUGH ME THE WAY INTO THE SUFFERING CITY,<br> THROUGH ME THE WAY TO THE ETERNAL PAIN,<br> THROUGH ME THE WAY THAT RUNS AMONG THE LOST. <br> JUSTICE URGED ON MY HIGH ARTIFICER; <br> MY MAKER WAS DIVINE AUTHORITY, <br> THE HIGHEST WISDOM, AND THE PRIMAL LOVE. <br> BEFORE ME NOTHING BUT ETERNAL THINGS <br> WERE MADE, AND I ENDURE ETERNALLY. <br> ABANDON EVERY HOPE, WHO ENTER HERE.”',
             location: {
                 center: [11.2558, 43.7696],
                 zoom: zoom,
